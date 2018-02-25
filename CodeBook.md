@@ -1,4 +1,4 @@
-# OVERVIEW 
+# Overview 
 
 The **_Human Activity Data (tidy).txt_** is a tidy data set based on data collected from the accelerometers from the Samsung Galaxy S smartphone.  The tidy data set contains average variable values for each subject and activity.  There are 180 rows/observations and 68 columns/variables in the tidy data set.
 
@@ -13,7 +13,7 @@ The tidy data set was created from the original data using the following steps:
 
 3. The observations were grouped by Subject and Activity and the average variable value calculated.  
 
-# DATA DICTIONARY
+# Data Dictionary
 
 1. "Subject"
 	- ID number of human subject.  
