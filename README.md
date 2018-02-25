@@ -1,9 +1,11 @@
 # Introduction
 The **_Human Activity Data (tidy).txt_** is a tidy data set based on data collected from the accelerometers from the Samsung Galaxy S smartphone.  
 
+The tidy data set contains average variable values for each subject and activity pair and was created using the run_analysis.R 
+script.
+
 The original data was downloaded from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.  
 
-The tidy data set contains average variable values for each subject and activity pair and was created using the run_analysis.R script.
 
 # Files Included
 * **_Human Activity Data (tidy).txt_** - the cleaned data set  
