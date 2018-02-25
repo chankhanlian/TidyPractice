@@ -1,13 +1,13 @@
-# SUMMARY 
+# OVERVIEW 
 
-The "Human Activity Data (tidy).txt" is a tidy data set based on data collected from the accelerometers from the Samsung Galaxy S smartphone.  The tidy data set contains average variable values for each subject and activity.
+The **_Human Activity Data (tidy).txt_** is a tidy data set based on data collected from the accelerometers from the Samsung Galaxy S smartphone.  The tidy data set contains average variable values for each subject and activity.  There are 180 rows/observations and 68 columns/variables in the tidy data set.
 
 The original data is from: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 The data was downloaded from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
 
 The tidy data set was created from the original data using the following steps:  
-1. The X_train.txt, y_train.txt, subject_train.txt, X_test.txt, y_test.txt, subject_test.txt files were combined into a single data set  
+1. The *X_train.txt, y_train.txt, subject_train.txt, X_test.txt, y_test.txt, subject_test.txt* files were combined into a single data set.  
 
 2. Only the 'Subject', 'Activity' and the mean and standard deviation (mean(), std()) variables were retained.  
 
@@ -166,115 +166,70 @@ The tidy data set was created from the original data using the following steps:
 48. "frequencyBodyAcceleration-stdDev()-Z"
 	- Standard deviation of body acceleration in the frequency domain along the Z-axis.
 
-49. "frequencyGravityAcceleration-mean()-X"
-	- Mean gravity acceleration in the frequency domain along the X-axis.
 
-50. "frequencyGravityAcceleration-mean()-Y"
-	- Mean gravity acceleration in the frequency domain along the Y-axis.
-
-51. "frequencyGravityAcceleration-mean()-Z"
-	- Mean gravity acceleration in the frequency domain along the Z-axis.
-
-52. "frequencyGravityAcceleration-stdDev()-X"
-	- Standard deviation of gravity acceleration in the frequency domain along the X-
-	axis.
-
-53. "frequencyGravityAcceleration-stdDev()-Y"
-	- Standard deviation of gravity acceleration in the frequency domain along the Y-	
-	axis.
-
-54. "frequencyGravityAcceleration-stdDev()-Z"
-	- Standard deviation of gravity acceleration in the frequency domain along the Z-	
-	axis.
-
-55. "frequencyBodyAccelerationJerk-mean()-X"
+49. "frequencyBodyAccelerationJerk-mean()-X"
 	- Mean body jerk acceleration in the frequency domain along the X-axis.
 
-56. "frequencyBodyAccelerationJerk-mean()-Y"
+50. "frequencyBodyAccelerationJerk-mean()-Y"
 	- Mean body jerk acceleration in the frequency domain along the Y-axis.
 
-57. "frequencyBodyAccelerationJerk-mean()-Z"
+51. "frequencyBodyAccelerationJerk-mean()-Z"
 	- Mean body jerk acceleration in the frequency domain along the -axis.
 
-58. "frequencyBodyAccelerationJerk-stdDev()-X"
+52. "frequencyBodyAccelerationJerk-stdDev()-X"
 	- Standard deviation of body jerk acceleration in the frequency domain along the X-
 	axis.
 
-59. "frequencyBodyAccelerationJerk-stdDev()-Y"
+53. "frequencyBodyAccelerationJerk-stdDev()-Y"
 	- Standard deviation of body jerk acceleration in the frequency domain along the Y-
 	axis.
 
-60. "frequencyBodyAccelerationJerk-stdDev()-Z"
+54. "frequencyBodyAccelerationJerk-stdDev()-Z"
 	- Standard deviation of body jerk acceleration in the frequency domain along the Z-
 	axis.
 
-61. "frequencyBodyGyroscope-mean()-X"
+55. "frequencyBodyGyroscope-mean()-X"
 	- Mean body gyration in the frequency domain along the X-axis.
 
-62. "frequencyBodyGyroscope-mean()-Y"
+56. "frequencyBodyGyroscope-mean()-Y"
 	- Mean body gyration in the frequency domain along the Y-axis.
 
-63. "frequencyBodyGyroscope-mean()-Z"
+57. "frequencyBodyGyroscope-mean()-Z"
 	- Mean body gyration in the frequency domain along the Z-axis.
 
-64. "frequencyBodyGyroscope-stdDev()-X"
+58. "frequencyBodyGyroscope-stdDev()-X"
 	- Standard deviation of body gyration in the frequency domain along the X-axis.
 
-65. "frequencyBodyGyroscope-stdDev()-Y"
+59. "frequencyBodyGyroscope-stdDev()-Y"
 	- Standard deviation of body gyration in the frequency domain along the Y-axis.
 
-66. "frequencyBodyGyroscope-stdDev()-Z"
+60. "frequencyBodyGyroscope-stdDev()-Z"
 	- Standard deviation of body gyration in the frequency domain along the Z-axis.
 
-67. "frequencyBodyGyroscopeJerk-mean()-X"
-	- Mean of body jerk gyration in the frequency domain along the X-axis.
-
-68. "frequencyBodyGyroscopeJerk-mean()-Y"
-	- Mean of body jerk gyration in the frequency domain along the Y-axis.
-
-68. "frequencyBodyGyroscopeJerk-mean()-Z"
-	- Mean of body jerk gyration in the frequency domain along the Z-axis.
-
-69. "frequencyBodyGyroscopeJerk-stdDev()-X"
-	- Standard deviation of body jerk gyration in the frequency domain along the X-axis.
-
-70. "frequencyBodyGyroscopeJerk-stdDev()-Y"
-	- Standard deviation of body jerk gyration in the frequency domain along the Y-axis.
-
-71. "frequencyBodyGyroscopeJerk-stdDev()-Z"
-	- Standard deviation of body jerk gyration in the frequency domain along the Z-axis.
-
-72. "frequencyBodyAccelerationMagnitude-mean()"
+61. "frequencyBodyAccelerationMagnitude-mean()"
 	- Mean magnitude of the body acceleration signal in the frequency domain.
 
-73. "frequencyBodyAccelerationMagnitude-stdDev()"
+62. "frequencyBodyAccelerationMagnitude-stdDev()"
 	- Standard deviation of the magnitude of the body acceleration signal in the 
 	frequency domain.
 
-74. "frequencyGravityAccelerationMagnitude-mean()"
-	- Mean magnitude of the gravity acceleration signal in the frequency domain.
-
-75. "frequencyGravityAccelerationMagnitude-stdDev()"
-	- Standard deviation of the magnitude of the gravity acceleration signal in the 
-	frequency domain.
-
-76. "frequencyBodyAccelerationJerkMagnitude-mean()"
+63. "frequencyBodyAccelerationJerkMagnitude-mean()"
 	- Mean magnitude of the body acceleration jerk signal in the frequency domain.
 
-77. "frequencyBodyAccelerationJerkMagnitude-stdDev()"
+64. "frequencyBodyAccelerationJerkMagnitude-stdDev()"
 	- Standard deviation of the magnitude of the body acceleration jerk signal in the 
 	frequency domain.
 
-78. "frequencyBodyGyroscopeMagnitude-mean()"
+65. "frequencyBodyGyroscopeMagnitude-mean()"
 	- Mean magnitude of the body gyration signal in the frequency domain.
 
-79. "frequencyBodyGyroscopeMagnitude-stdDev()"
+66. "frequencyBodyGyroscopeMagnitude-stdDev()"
 	- Standard deviation of the body gyration signal in the frequency domain.
 
-80. "frequencyBodyGyroscopeJerkMagnitude-mean()"
+67. "frequencyBodyGyroscopeJerkMagnitude-mean()"
 	- Mean magnitude of the body jerk gyration signal in the frequency domain.
 
-81. "frequencyBodyGyroscopeJerkMagnitude-stdDev()"
+68. "frequencyBodyGyroscopeJerkMagnitude-stdDev()"
 	- Standard deviation of the body jerk gyration signal in the frequency domain.
 
 
