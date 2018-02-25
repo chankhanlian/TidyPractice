@@ -7,8 +7,7 @@ script.
 The original data was downloaded from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.  
 
 
-# Files Included
-* **_Human Activity Data (tidy).txt_** - the cleaned data set  
+# Files Included  
 * **_codeBook.md_** - Code book for "Human Activity Data (tidy).txt" tidy data set with a description of the data variables  
 * **_run_analysis.R_** - R script used to transform the original data into the tidy data set 
 
